@@ -24,7 +24,13 @@
     "url": "https://github.com/generation-s/jaures/issues"
   },
   "homepage": "https://github.com/generation-s/jaures#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "knex": "^0.16.3",
+    "mongodb": "^3.2.2",
+    "pg": "^7.9.0",
+    "sqlite3": "^4.0.6"
+  },
   "devDependencies": {
     "@commitlint/cli": "^7.5.2",
     "@commitlint/config-conventional": "^7.5.0",
