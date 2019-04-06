@@ -7,6 +7,9 @@
     "start": "echo Starting application in development mode. DO NOT USE THIS FOR PRODUCTION! && nodemon app.js",
     "lint": "standard --verbose | snazzy",
     "lint:fix": "standard --fix",
+    "migrate": "knex migrate:latest",
+    "migrate:rollback": "knex migrate:rollback",
+    "migrate:make": "knex migrate:make",
     "test": "jest"
   },
   "repository": {

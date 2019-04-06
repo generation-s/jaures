@@ -85,3 +85,6 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# SQLite local database
+jaures.sqlite
